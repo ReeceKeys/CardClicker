@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+# Card Clicker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a card-clicking web application that demonstrates React concepts and interacts with a PostgreSQL database. The front-end is built with React, and the backend uses Node + Express + PostgreSQL. Docker is used to containerize the application, making deployment simple and consistent.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Familiar / Easy
 
-### `npm start`
+The parts of this assessment that were familiar to me:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### HTML Concepts
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Structuring web pages with HTML syntax.
+- Creating forms and standard page elements like divs, headers, and lists.
 
-### `npm test`
+### CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Styling pages with classes and IDs.
+- Using Flexbox and Grid layouts.
+- Applying responsive design basics, with attention to mobile as well.
 
-### `npm run build`
+### SQL Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Creating databases and tables.
+- Running simple SQL queries.
+- Connecting to a SQL environment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## New / Challenging
 
-### `npm run eject`
+The parts of this assessment that were new to me:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### PostgreSQL
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Installing and configuring PostgreSQL in particular was new for me.
+- Initializing and using PostgreSQL in Node.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### React
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Understanding state management and React hooks.
+- Working with JSX and component lifecycles.
 
-## Learn More
+### Dockerfile for React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Containerizing a React application.
+- Managing caching and environment variables.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## Clarification
+
+- The assesstment was fairly straightforward, but if there is something that I am missing, please let me know.
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
+
+2. Build and start the services with Docker Compose:
+
+```bash
+docker-compose build --no-cache
+docker-compose up
+```
+
+3.
+
+```bash
+Open your browser:
+http://localhost:3000
+```
